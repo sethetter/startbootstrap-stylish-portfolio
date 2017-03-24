@@ -178,6 +178,14 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.service-item a:link {
+  color: #000000;
+}
+
+.btn a {
+  color: #337ab7;
+}
+
 /* Callout */
 
 .callout {
