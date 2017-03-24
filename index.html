@@ -121,8 +121,8 @@
                                     <strong>Hackathon</strong>
                                 </h4>
                                 <p>Spend the weekend building something awesome. Compete for prizes. Fly solo or bring a team!</p>
-                                <a href="#" class="btn btn-light">More...</a>
-                                <a href="#" class="btn btn-light">Register</a>
+                                <button data-toggle="modal" data-target="#hackathon-info" class="btn btn-light">More Info</button>
+                                <a href="https://goo.gl/forms/qMkdCeDaTaLaI1lr1" class="btn btn-light">Register</a>
                             </div>
                         </div>
                         <div class="col-xs-6 col-sm-3">
@@ -272,6 +272,65 @@
         </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
+
+    <!-- Hackathon Info Modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="hackathon-info">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h2 class="modal-title">Hackathon @ Tech Midwest</h2>
+          </div>
+          <div class="modal-body">
+            <p>
+              At the inaugural Tech Midwest we're calling on all developers, designers,
+              artists, makers, and technologists to come build something incredible! Whether
+              you are a seasoned veteran or an absolute beginner, we want you to join us for
+              this year's Hackathon!
+            </p>
+
+            <p>
+              Get together in teams of 2-5 people and collaborate on a project over the course
+              of the event. At the end, present what you created and see which teams did the
+              best!
+            </p>
+
+            <h3>Who should participate?</h3>
+
+            <p>
+              There are no requirements to participate in this event. As long as you have a
+              passion for technology, enthusiasm for creating things, and a willingness to
+              collaborate, this event is for you.
+            </p>
+
+            <p>
+              If you already have a team in mind, bring them! If not, we'll get you paired up
+              at the event. While we do encourage you to be in a team, you can fly solo too.
+            </p>
+
+            <h3> What kinds of projects?</h3>
+
+            <p>
+               We want to see unhinged creativity! There are very few stipulations for what you
+               should build. As long as it's technology-driven, you can build it here.
+            </p>
+
+            <p>
+               Projects will be judged based on a combination creativity, technical ability,
+               usefulness, and ambition. Feel free to sacrifice any one of these for another!
+            </p>
+
+            <p>
+              If you have any questions about a project idea, feel free to <a href="mailto:seth@openwichita.com">get in touch</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://goo.gl/forms/qMkdCeDaTaLaI1lr1" class="btn btn-success">Get Registered!</a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
