@@ -178,8 +178,9 @@ hr.small {
     margin-bottom: 30px;
 }
 
-.service-item a:link {
-  color: #000000;
+.service-item a:link:not(.btn),
+.service-item a:visited:not(.btn) {
+  color: #e1f1ff;
 }
 
 .btn a {
