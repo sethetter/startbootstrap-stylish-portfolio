@@ -229,6 +229,12 @@ hr.small {
     margin: 10px;
 }
 
+.headshot{
+  float: left;
+  max-width: 50%;
+  margin-right: 10px;
+}
+
 /* Map */
 
 .map {
