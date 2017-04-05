@@ -33,6 +33,7 @@
   <body>
 
     <!-- Navigation -->
+    <!--
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
@@ -57,13 +58,14 @@
         </li>
       </ul>
     </nav>
+    -->
 
     <!-- Header -->
     <header id="top" class="header">
       <div class="text-vertical-center">
         <h1 class="hidden">Tech Midwest</h1>
         <h3 class="hidden">June 3-4, 2017 @ Riverfest</h3>
-        <img src="/img/techmidwest-logo.svg" width="80%" alt="" />
+        <img src="/img/techmidwest-logo.svg" width="65%" alt="" />
         <br>
         <br>
         <br>
@@ -298,30 +300,30 @@
     <!-- Custom Theme JavaScript -->
     <script>
       // Closes the sidebar menu
-      $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-      });
-      // Opens the sidebar menu
-      $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-      });
-      // Scrolls to the selected menu item on the page
-      $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
-      });
+      //$("#menu-close").click(function(e) {
+      //  e.preventDefault();
+      //  $("#sidebar-wrapper").toggleClass("active");
+      //});
+      //// Opens the sidebar menu
+      //$("#menu-toggle").click(function(e) {
+      //  e.preventDefault();
+      //  $("#sidebar-wrapper").toggleClass("active");
+      //});
+      //// Scrolls to the selected menu item on the page
+      //$(function() {
+      //  $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+      //    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+      //      var target = $(this.hash);
+      //      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      //      if (target.length) {
+      //        $('html,body').animate({
+      //          scrollTop: target.offset().top
+      //        }, 1000);
+      //        return false;
+      //      }
+      //    }
+      //  });
+      //});
       //#to-top button appears after scrolling
       var fixed = false;
       $(document).scroll(function() {
