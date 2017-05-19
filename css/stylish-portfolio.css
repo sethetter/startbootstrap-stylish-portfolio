@@ -6,6 +6,11 @@
 
 /* Global Styles */
 
+.social-hidden {
+  height: 1px;
+  width: 1px;
+}
+
 html,
 body {
     width: 100%;
@@ -270,8 +275,4 @@ footer .list-inline img {
   position: fixed;
   bottom: 5px;
   right: 5px;
-}
-.social-hidden {
-  height: 1px;
-  width: 1px;
 }
