@@ -271,3 +271,7 @@ footer .list-inline img {
   bottom: 5px;
   right: 5px;
 }
+.social-hidden {
+  height: 1px;
+  width: 1px;
+}
