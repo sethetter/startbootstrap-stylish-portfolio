@@ -205,6 +205,15 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+.callout li {
+  font-size: 1.5em;
+  list-style: none;
+  line-height: 40px;
+}
+.callout a{
+  background: rgba(256,256,256,.7);
+  padding: 3px;
+}
 
 /* Portfolio */
 
