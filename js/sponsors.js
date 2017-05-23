@@ -17,11 +17,12 @@ function getDOMNode(tag) {
 
 function createImageNode(element) {
   var image = document.createElement("div");
+  image.className = "col-md-4 sponsor";
   image.innerHTML = element;
   return image;
 }
 
-function orderRandom(array, domTag) {
+function orderRandom(array, domTag, i) {
 
   // recursive catch for empty array
   if (array.length === 0) return;
@@ -35,10 +36,15 @@ function orderRandom(array, domTag) {
   var domNode = getDOMNode(domTag);
   // create a html node and append it to the domNode
   domNode.appendChild(createImageNode(element));
+  if (i % 3 === 0){
+    var clear = document.createElement("div");
+    clear.className = "clearfix";
+    domNode.appendChild (clear);
+  }
   // mutate the array to not have that array
   array.splice(ran, 1);
   // recursion
-  orderRandom(array, domTag);
+  orderRandom(array, domTag, i+1);
 }
 
-orderRandom(aArray, 'sponsors');
+orderRandom(aArray, 'sponsors', 1);
