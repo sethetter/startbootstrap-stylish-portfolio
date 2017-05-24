@@ -5,6 +5,7 @@ var aArray = [
   `<a href="https://www.butlercc.edu/" target="_blank" ><img src="../img/logos/Butler.jpg"></a>`,
   `<a href="http://flinthillsgroup.com/" target="_blank" ><img src="../img/logos/FHG.jpg"></a>`,
   `<a href="http://www.downtownwichita.org/" target="_blank" ><img src="../img/logos/DowntownWichita.jpg"></a>`,
+  `<a href="http://ulteriustech.com/" target="_blank" ><img src="../img/logos/Ulterius.jpg"></a>`,
 ];
 
 
